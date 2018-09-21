@@ -10,7 +10,6 @@ import java.net.Socket;
  * @author SHUBHAM
  */
 public class Client {
-
 	public static void main(String args[]) throws Exception {
 		Socket sk = new Socket("localhost", 5000);
 		BufferedReader sin = new BufferedReader(new InputStreamReader(sk.getInputStream()));
